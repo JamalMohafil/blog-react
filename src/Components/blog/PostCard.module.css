@@ -1,0 +1,26 @@
+.postcard_img {
+    position: relative;
+
+}   
+.postcard_img img {
+    aspect-ratio: 1.5 / 1;
+    object-fit: cover;
+    object-position: center;
+}
+.card_link {
+    color: #444;
+    text-decoration: none;
+    direction: rtl;
+    transition: 0.4s ;
+}
+.card_link:hover {
+    opacity: 0.95;
+}
+.card_p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    height: 54%;
+    font-size: 12px;
+    margin-top: 5px;
+}

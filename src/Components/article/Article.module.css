@@ -1,0 +1,11 @@
+.article_hero img {
+    width: 100vw;
+    height: 360px;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+}
+
+.card_article {
+    
+}

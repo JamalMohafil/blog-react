@@ -1,0 +1,56 @@
+.pos {
+    position: relative;
+}
+.article_hero img {
+    width: 100vw;
+    height: 360px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.pos .subCard {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top,rgba(0,0,0,0.2),rgba(0,0,0,0.5));
+}
+.pos .subCard small {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pos .subCard small svg {
+    width: 20px;
+    margin-left: 8px;
+}
+.post_card_single {
+    margin: 25px 0;
+}
+
+.post_card_single img {
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.single_post_card_title {
+    margin-bottom: 25px;
+    margin-top: 35px;
+
+}
+
+@media (max-width:930px) and (min-width:768px){
+    .post_card_single {
+        display: flex;
+        flex-direction: column;
+    }
+    .post_card_single .col-md-8,.post_card_single .col-md-4 {
+        width: 100% !important;
+    }
+}

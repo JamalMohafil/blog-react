@@ -1,0 +1,12 @@
+.footer {
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  color: #e5e5e5;
+}
+
+/* Hava girdiğinde kapı ben fark etmeden zorla kapanıyor */
+/* عندما يدخل الهواء، يُغلق الباب بالقوة دون أن ألاحظ. */
